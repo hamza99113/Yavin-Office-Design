@@ -46,6 +46,37 @@
     width: 600px;
 }
 
+.to-top-btn{
+    position: fixed;
+    opacity: 0;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    height: 52px;
+    width: 52px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background-color: #44434a;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.to-top-btn{
+    img{
+        margin-bottom: 0.25rem;
+        width: 18px;
+    }
+}
+.to-top-btn{
+    &:hover{
+        background-color: #1d1d21;
+    }
+}
+
+.show{
+    opacity: 1;
+}
 
 @media(max-width: 992px){
     .header{

@@ -34,5 +34,40 @@ function incrementStats(){
     });
 }
 
+
+function toTopButton(){
+    const navbar = document.querySelector('.to-top-btn');
+    window.addEventListener('scroll', () =>{
+        if(window.scrollY > 50){
+            navbar.classList.add('show');
+        } else{
+            navbar.classList.remove('show');
+        }
+    })
+}
+
+
+// script.js
+window.onscroll = function() {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    var scrollToTopButton = document.getElementById(".to-top-btn");
+    
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollToTopButton.style.display = "block";
+    } else {
+        scrollToTopButton.style.display = "none";
+    }
+}
+
+function scrollToTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+
+
 document.addEventListener('DOMContentLoaded', userScroll);
 document.addEventListener('DOMContentLoaded', incrementStats);
+document.addEventListener('DOMContentLoaded', toTopButton);
