@@ -1,8 +1,20 @@
 # Yavin Website
 
+### Udemy Project No.4
+### Course: Bootstrap 5 From Scratch | Build 5 Modern Websites <br> <br>
+
 Bootstrap website for a company that creates and customizes office spaces. It could be used for just about any kind of business. It is a very light business theme with a clean design.
 
-<img src="./images/screen.png" />
+<img src="./images/display.png" />
+
+
+## Languages and Technologies used in this project.
+
+- HTML
+- CSS 
+- Bootstrap 5
+- JavaScript
+- SASS
 
 ## Features
 
